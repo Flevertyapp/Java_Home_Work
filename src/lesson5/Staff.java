@@ -8,7 +8,6 @@ public class Staff {
     int salary;
     int age;
 
-
     public Staff(String name, String position, String email, String phone, int salary, int age) {
         this.name = name;
         this.position = position;

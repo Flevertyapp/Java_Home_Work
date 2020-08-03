@@ -12,6 +12,9 @@ public class MainHW5 {
         staffArray[3] = new Staff("Капитолина Светозарова", "зам. директора", "KaSv@mail.ru", "+7-454-397-19-74", 80000, 21);
         staffArray[4] = new Staff("Доброжир Ярополков", "директор", "Director@mail.ru", "+7-454-397-19-75", 95000, 61);
 
+        //staffArray[3].staffInfo();
+
+        System.out.println("Сотрудники старше 40 лет:");
         for (int i = 0; i < staffArray.length; i++) {
             staffArray[i].staffOverForty();
         }
